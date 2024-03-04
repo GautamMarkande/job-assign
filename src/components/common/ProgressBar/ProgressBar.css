@@ -1,0 +1,25 @@
+.progress{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    position: relative;
+    color: white;
+    padding: 10px;
+}
+.progress_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ProgessText{
+    font-size: 0.8rem;
+}
+.slider{
+    height: 8px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    border: 1px solid #36A546;
+    border-radius: 50px;
+}
+.rangePercent{
+    color: #36A546;
+}

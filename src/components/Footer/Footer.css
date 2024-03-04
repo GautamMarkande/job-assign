@@ -1,0 +1,27 @@
+.Home_Link,
+.user_Link {
+    flex: 1;
+    text-align: center;
+    color: #00FF2580;
+    padding: 10px;
+    
+}
+.active{
+    background-color: #38383880;
+    border-radius: 25px;
+}
+.footer {
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 8px 4px 4px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #0F2323;
+    opacity: 1;
+    
+}
